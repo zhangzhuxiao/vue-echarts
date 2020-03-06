@@ -3,7 +3,7 @@
     <chart id="logo" :options="logo" :init-options="initOptions" autoresize />
     <h1><a href="https://github.com/Justineo/vue-echarts">Vue-ECharts</a></h1>
     <p class="desc">ECharts component for Vue.js.</p>
-
+    <div>git提交测试</div>
     <h2 id="bar">
       <a href="#bar"
         >Bar chart <small>(with async data &amp; custom theme)</small></a
