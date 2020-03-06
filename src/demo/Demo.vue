@@ -33,11 +33,9 @@
       </figure>
       <p v-if="seconds <= 0"><small>Loaded.</small></p>
       <p v-else>
-        <small
-          >Data coming in <b>{{ seconds }}</b> second{{
+        <small>Data coming in <b>{{ seconds }}</b> second{{
             seconds > 1 ? 's' : ''
-          }}...</small
-        >
+          }}...</small>
       </p>
       <p><button @click="refresh" :disabled="seconds > 0">Refresh</button></p>
     </section>
