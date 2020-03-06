@@ -8,6 +8,7 @@
       <a href="#bar"
         >Bar chart <small>(with async data &amp; custom theme)</small></a
       >
+      <div>master分支修改</div>
       <button
         :class="{
           round: true,
